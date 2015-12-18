@@ -21,6 +21,7 @@ public class mathTest {
         assertEquals(mc.Add(0,-5),-5);
         assertEquals(mc.Add(-1,-2),-3);
         assertEquals(mc.Add(-1,1),0);
+        assertEquals(mc.Add(100,100),200);
     }
 
 }
