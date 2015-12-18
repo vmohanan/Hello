@@ -9,7 +9,7 @@ import org.apache.commons.httpclient.URIException;
 public class HelloWorld {
     public static void main(String[] args) {
         int fgy=0;
-        System.out.println("HEllo, World!");
+        System.out.println("Hello, World!");
 
         try {
             HttpURL httpURL = new HttpURL("www.google.com");

@@ -3,7 +3,7 @@ import static org.junit.Assert.assertEquals;
 
 import quickstart.mathclass;
 
-public class mathtests {
+public class mathTest {
     @Test
     public void AddTest()
     {
