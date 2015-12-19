@@ -23,7 +23,7 @@ public class MainClass {
                 System.exit(1);
             }
 
-            mathclass mathobj=new mathclass();
+            MathClass mathobj=new MathClass();
 
             if (args[0].toLowerCase().equals("add"))
                 System.out.println(mathobj.Add(Num1,Num2));
