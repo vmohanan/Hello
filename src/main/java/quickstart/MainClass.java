@@ -1,10 +1,7 @@
 package quickstart;
 
 
-/**
- * Created by vxmohana on 12/16/15.
- */
-public class vinod {
+public class MainClass {
 
     public static void main(String[] args)
     {
