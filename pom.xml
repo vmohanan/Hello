@@ -52,7 +52,7 @@
                 <version>2.5.1</version>
 
                 <configuration>
-                    <aggregate>true</aggregate>
+                    <!-- aggregate>true [This is not generated any useful aggregate for this project, so commenting it out..]</aggregate -->
                     <formats>
                         <format>xml</format>
                     </formats>
