@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite failures="0" time="0.012" errors="0" skipped="0" tests="2" name="mathTest">
+<testsuite failures="0" time="0.01" errors="0" skipped="0" tests="4" name="mathTest">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.7.0_15.jdk/Contents/Home/jre/lib"/>
@@ -64,6 +64,8 @@
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase time="0.012" classname="mathTest" name="AddTest"/>
-  <testcase time="0" classname="mathTest" name="AddNegativeTest"/>
+  <testcase time="0.009" classname="mathTest" name="AddNegativeNumbersTest"/>
+  <testcase time="0" classname="mathTest" name="MultiplyTest"/>
+  <testcase time="0.001" classname="mathTest" name="AddTest"/>
+  <testcase time="0" classname="mathTest" name="MultiplyNegativeNumbersTest"/>
 </testsuite>
