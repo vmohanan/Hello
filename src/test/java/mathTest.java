@@ -24,22 +24,24 @@ public class mathTest {
         assertEquals(mc.Add(-1,1),0);
     }
 
+    @Test
     public void MultiplyTest()
     {
         MathClass mc=new MathClass();
         assertEquals(mc.Multiply(4,5),20);
-        assertEquals(mc.Add(14,10),140);
-        assertEquals(mc.Add(100,200),20000);
-        assertEquals(mc.Add(1,0),0);
+        assertEquals(mc.Multiply(14,10),140);
+        assertEquals(mc.Multiply(100,200),20000);
+        assertEquals(mc.Multiply(1,0),0);
     }
 
+    @Test
     public void MultiplyNegativeNumbersTest()
     {
         MathClass mc=new MathClass();
         assertEquals(mc.Multiply(-4,5),-20);
-        assertEquals(mc.Add(4,-5),-20);
-        assertEquals(mc.Add(-1,-2),-2);
-        assertEquals(mc.Add(-1,0),0);
+        assertEquals(mc.Multiply(4,-5),-20);
+        assertEquals(mc.Multiply(-1,-2),2);
+        assertEquals(mc.Multiply(-1,0),0);
     }
 
 
