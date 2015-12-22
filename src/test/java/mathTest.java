@@ -40,7 +40,7 @@ public class mathTest {
         MathClass mc=new MathClass();
         assertEquals(mc.Multiply(-4,5),-20);
         assertEquals(mc.Multiply(4,-5),-20);
-        assertEquals(mc.Multiply(-1,-2),-2);
+        assertEquals(mc.Multiply(-1,-2),2);
         assertEquals(mc.Multiply(-1,0),0);
     }
 
