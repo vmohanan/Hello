@@ -6,15 +6,14 @@ public class MathClass {
 
     public int Add(int Num1,int Num2)
     {
-        int Nu=0;
         try {
-            Nu= Num1 + Num2;
+            Num1 = Num1 + Num2;
         }
-        catch (NumberFormatException nfe)
+        catch (NullPointerException nullPointerException)
         {
-
+            nullPointerException.printStackTrace();
         }
-        return Nu;
+        return Num1;
     }
 
     public long Multiply(int Num1,int Num2)
