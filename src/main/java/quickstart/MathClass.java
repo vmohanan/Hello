@@ -18,7 +18,7 @@ public class MathClass {
 
     public long Multiply(int Num1,int Num2)
     {
-        long MVal1;
+        long MVal1=0;
         try {
             MVal1= Num1 * Num2;
         }
@@ -30,7 +30,14 @@ public class MathClass {
 
     public float Divide(int Num1,int Num2)
     {
-        return Num1/Num2;
+        float MVal1=0;
+        try {
+            MVal1= Num1/Num2;
+        }
+        catch (NullPointerException nullPointerException)
+        {
+        }
+        return MVal1;
     }
 
     public int subtract(int Num1,int Num2)
