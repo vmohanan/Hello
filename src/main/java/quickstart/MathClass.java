@@ -32,11 +32,14 @@ public class MathClass {
     {
         float MVal1=0;
         try {
-            MVal1= Num1/Num2;
-        }
-        catch (NullPointerException nullPointerException)
+            if (Num2 == 0)
+                throw new IllegalArgumentException("divisor is zero");
+            else
+                MVal1= Num1/Num2;
+        } catch (IllegalArgumentException illegalArgumentException)
         {
         }
+
         return MVal1;
     }
 
