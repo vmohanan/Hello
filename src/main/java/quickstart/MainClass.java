@@ -38,7 +38,8 @@ public class MainClass {
                 System.exit(1);
             }
 
-/*            switch (args[0].toLowerCase())
+/*
+            switch (args[0].toLowerCase())
             {
                 case "add" :
                     System.out.println(mathobj.Add(Op1));
@@ -57,9 +58,8 @@ public class MainClass {
                     break;
 
             }
+
 */
-
         }
-
     }
 }
