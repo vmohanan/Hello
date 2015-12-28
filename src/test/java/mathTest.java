@@ -44,5 +44,12 @@ public class mathTest {
         assertEquals(mc.Multiply(-1,0),0);
     }
 
+    @Test(expected=IllegalArgumentException.class)
+    public void DivideExceptionTest()
+    {
+        MathClass mc=new MathClass();
+        mc.Divide(10,0);
+    }
+
 
 }
