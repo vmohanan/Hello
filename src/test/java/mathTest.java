@@ -49,15 +49,23 @@ public class mathTest {
     public void Divide1Test()
     {
         MathClass mc=new MathClass();
-        assertEquals(mc.Divide(10,2),5);
-        assertEquals(mc.Divide(11,2),5.5);
+        assertEquals(mc.Divide(10,2),5,0.5);
+        assertEquals(mc.Divide(11,2),5.5,0.5);
     }
 
 
     //http://stackoverflow.com/questions/3083161/junit-exception-testing
 
-    @Test(expected=IllegalArgumentException.class)
+    @Test(expected=ArithmeticException.class)
     public void DivideExceptionTest()
+    {
+        MathClass mc=new MathClass();
+        mc.Divide(10,0);
+    }
+
+
+    @Test(expected=IllegalArgumentException.class)
+    public void DivideException2Test()
     {
         MathClass mc=new MathClass();
         mc.Divide(10,0);
