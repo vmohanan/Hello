@@ -28,17 +28,18 @@ public class MathClass {
         return MVal1;
     }
 
-    public float Divide(int Num1,int Num2)
+    public float Divide(int Num1,int Num2) throws IllegalArgumentException
     {
         float MVal1=0;
-        try {
+       // try {
             if (Num2 == 0)
                 throw new IllegalArgumentException("divisor is zero");
             else
                 MVal1= Num1/Num2;
-        } catch (IllegalArgumentException illegalArgumentException)
+        /*}
+        catch (IllegalArgumentException illegalArgumentException)
         {
-        }
+        }*/
 
         return MVal1;
     }
